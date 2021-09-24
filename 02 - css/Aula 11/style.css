@@ -1,0 +1,75 @@
+body {
+    background:#dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    /* Se o nome da fonte for um nome composto, inseri ele dentro de aspas simples. */
+
+    color:#3a3939;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.picture-profile {
+    width: 150px;
+     
+    
+    /* border: 5px double #ffffff; */
+     /*
+     essa forma resume três funções em apenas uma (OBS: a ordem é importante), outra maneira de realizar a mesma função seria:
+
+     border-width: 5px
+     boder-style: double
+     boder-color: #ffffff
+     */
+
+     border: solid;
+     border-color: #ffffff;
+     border-radius: 50%;
+     margin: 30px 30px 0 30px;
+     box-shadow: 10px 20px 15px #959595;
+     /*
+     1º parâmetro: distância da sombra na horizontal
+     2º parâmetro: distância da sombra na vertical
+     3º parâmetro: desfoque da sombra
+     4º parâmetro: cor
+     */
+
+     /* O margin é uma margem externa e o padding é uma interna */
+
+}
+
+.social-icons{
+    width: 22px;
+}
+
+.linkedin{
+    margin: 0 15px 0 15px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    color: #707070;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}

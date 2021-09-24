@@ -1,0 +1,16 @@
+body {
+    background: #d75413;
+}
+
+.skills{
+    color: #0b2b8b
+}
+/* Se a intenção for em todos os H3 pode utilizar uma teg diretamente para ele, exemplo abaixo */
+
+h3{
+    color: rgb(112, 0, 150);
+}
+
+.picture-profile{
+    width: 150px;
+}

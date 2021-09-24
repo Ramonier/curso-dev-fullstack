@@ -1,0 +1,25 @@
+body {
+    background-image: url(img/background.jpg);
+    /* Com essa função a imagem será repetida inumeras vezes para preencher todo o espaço
+    Se desejar que não haja repetição só adicionar: */
+    background-repeat: no-repeat;
+    
+    
+    /* Próxima função é para alterar a posição da imagem */
+    /* background-position: 100% 10%;  */
+    /* essa função empurra a imagem 100% da esquerda para a direita e 10% do topo para baixo*/
+
+    background-position: right center;
+    /* Essa vai alinhar a função do lado direito e no centro
+        Se o desejo for exatamente no centro usar "center center" */
+    
+    background-size: cover;
+    /* Essa faz com que a imagem ocupe todo o espaço */
+
+    background-attachment: fixed;
+    /* Essa faz com que a imagem fique fixa, o que se mexe é apenas o texto */
+}
+
+p {
+    color:#222222;
+}

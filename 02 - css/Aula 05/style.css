@@ -1,0 +1,35 @@
+body {
+    background:#dfdfdf;
+}
+
+p {
+    color:#222222;
+}
+
+.picture-profile {
+    width: 150px;
+    /* border: 5px double #ffffff; */
+     /*
+     essa forma resume três funções em apenas uma (OBS: a ordem é importante), outra maneira de realizar a mesma função seria:
+
+     border-width: 5px
+     boder-style: double
+     boder-color: #ffffff
+     */
+
+     border-top: solid;
+     border-right: dotted;
+     border-left: double;
+     border-bottom: dashed;
+     border-width: 5px 7px 2px 10px;
+     border-color: #fa0808;
+     border-radius: 0% 0% 50% 0%;
+     /* se utilizar apenas um valor, serve para os 4 cantos, mas se for utilizar um valor específico para cada um, o início é pelo canto superior esquerdo e segue sentido horário.*/
+     
+     margin-top: 30px;
+     margin-bottom: 50px;
+     margin-left: 50%;
+    /* Se utilizar só o margin: 30px 50px 10 px 30px; segue a mesma regra do anterior, iniciando no top e seguindo sentido horário */
+
+}
+
